@@ -17,6 +17,4 @@ def find_the_cheese(snacks)
   
 end
 
-dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-roll_call_dwarves(dwarves)
 
