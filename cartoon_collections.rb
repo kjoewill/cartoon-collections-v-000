@@ -1,7 +1,10 @@
 def roll_call_dwarves(names)
   sorted_names = names.sort
   i = 0
-  while i < names
+  while i < sorted_names.length
+    puts sorted_names[i]
+    i += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
