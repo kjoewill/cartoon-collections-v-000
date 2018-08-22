@@ -2,7 +2,7 @@ def roll_call_dwarves(names)
   sorted_names = names.sort
   i = 0
   while i < sorted_names.length
-    puts sorted_names[i]
+    yeild(sorted_names[i])
     i += 1
   end
 end
@@ -19,3 +19,7 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+
+
+roll_call_dwarves
+
