@@ -16,5 +16,5 @@ def find_the_cheese# code an argument here
 end
 
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-roll_call_dwarves(dwarves) { |d| puts d }
+roll_call_dwarves(dwarves)
 
