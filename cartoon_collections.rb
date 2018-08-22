@@ -1,8 +1,7 @@
 def roll_call_dwarves(names)
-  sorted_names = names.sort
   i = 0
-  while i < sorted_names.length
-    yield(sorted_names[i])
+  while i < names.length
+    yield(names[i])
     i += 1
   end
 end
